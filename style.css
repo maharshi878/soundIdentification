@@ -4,3 +4,12 @@ font-family:Quicksand;
 color:white;
 background-color:black;
 }
+.copy_right_footer{
+font-size:30;
+position:fixed;
+bottom:0;
+width:100%;
+text-align:center;
+color:black;
+background-color:white;
+}
