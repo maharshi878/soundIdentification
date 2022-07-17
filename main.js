@@ -28,13 +28,13 @@ function gotResults(error, results) {
     img = document.getElementById('animal_image');
 
     if (results[0].label == "Barking") {
-      img.src = 'bark.gif';
+      img.src = 'https://www.akc.org/wp-content/uploads/2017/12/Yellow-Lab-Puppy-Barking-500x500.jpg';
       dog = dog+1;
     } else if (results[0].label == "Meowing") {
-      img.src = 'meow.gif';
+      img.src = 'https://catfriendly.com/wp-content/uploads/2021/02/meow-e1612557327342.jpeg';
       cat = cat + 1;
     } else{
-      img.src = 'listen.gif';
+      img.src = 'https://c.tenor.com/L-q99rw2wncAAAAC/bedtime-mouse.gif';
     }
   }
 }
